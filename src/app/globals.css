@@ -16,10 +16,8 @@ body {
 }
 
 .gradient {
-  position: relative; 
-  z-index: 1000; 
   background: url(../../public/bitGradient.png) no-repeat;
   background-size: center;
-  background-position: top -50% center;
+  background-position: top 0% center;
   overflow: visible;
 }
