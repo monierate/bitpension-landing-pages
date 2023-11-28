@@ -10,7 +10,7 @@ const Header = () => {
         <Image src={BitLogo} alt="BitPension Logo" />
       </div>
       <div>
-        <Link href="/waitlist">
+        <Link href="https://tally.so/r/mY4MR5">
           <Button title="Join Waitlist" />
         </Link>
       </div>
