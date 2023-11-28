@@ -34,7 +34,7 @@ const Header = () => {
         <Image src={BitLogo} alt="BitPension Logo" />
       </div>
       <div className="text-center md:text-right">
-        <Link href="/waitlist">
+        <Link href="https://tally.so/r/mY4MR5">
           <Button title="Join Waitlist" />
         </Link>
       </div>
