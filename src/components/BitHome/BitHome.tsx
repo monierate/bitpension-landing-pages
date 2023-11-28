@@ -10,7 +10,6 @@ const BitHome = () => {
   return (
     <main>
       <div className="flex flex-col items-center md:items-start md:flex-row md:justify-center mt-[50px]">
-        
         <div className="text-center md:text-left  gradient pt-64">
           <h1 className="font-black text-4xl md:text-7xl leading-[64px]">
             Make The best <br />
@@ -21,7 +20,7 @@ const BitHome = () => {
             leverage and pension home
           </p>
           <div className="pt-3 md:pt-6">
-            <Link href="/waitlist">
+            <Link href="https://tally.so/r/mY4MR5">
               <Button title="Join Waitlist →" />
             </Link>
           </div>
@@ -34,12 +33,11 @@ const BitHome = () => {
         </div>
 
         <div className="mt-6 md:mt-0 md:ml-[-72px]">
-          <Image src={BitChart} alt="Bit Pension Chart"/>
+          <Image src={BitChart} alt="Bit Pension Chart" />
         </div>
       </div>
     </main>
   );
 };
-
 
 export default BitHome;
